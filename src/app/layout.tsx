@@ -1,18 +1,21 @@
+import React from "react";
+
 import "./globals.css";
-import ReactQueryProvider from "./ReactQueryProvider";
-export default function DashboardLayout({
-  children, // will be a page or nested layout
+import Recoil from "./utils/Recoil";
+import ReactQuery from "./utils/ReactQuery";
+
+export default function RootLayout({
+  children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <ReactQueryProvider>
-      <section>
-        {/* Include shared UI here e.g. a header or sidebar */}
-        <nav></nav>
-
-        {children}
-      </section>
-    </ReactQueryProvider>
+    <html lang="ko-KR">
+      <body>
+        <Recoil>
+          <ReactQuery>{children}</ReactQuery>
+        </Recoil>
+      </body>
+    </html>
   );
 }
