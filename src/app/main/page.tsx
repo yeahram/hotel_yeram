@@ -1,7 +1,12 @@
+import { motion, MotionStyle } from "framer-motion";
+
 const Main = () => {
   return (
     <>
       <p className="bg-slate-500 text-slate-50">Main</p>
+      {/* <motion.div initial={{ scale: 0 }} animate={{ scale: 1, rotateZ: 360 }}>
+        <p>framer motion</p>
+      </motion.div> */}
       <header>
         <ul className="flex flex-auto">
           <li>menu1</li>
