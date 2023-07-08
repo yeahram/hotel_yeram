@@ -9,7 +9,8 @@ const MainHeader = () => {
       className="
       border-[1px]
       border-neutral-400
-      min-w-1920
+      w-screen
+      min-w-[1000px]
   "
     >
       <Image
@@ -17,7 +18,7 @@ const MainHeader = () => {
         src="https://www.josunhotel.com/static/home/images/ko/pc/HUMA/bg_main01.jpg"
         layout="fill"
         objectFit="cover"
-        className="
+        className=" min-w-[1000px]
         -z-10
         "
       ></Image>
