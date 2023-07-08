@@ -1,15 +1,11 @@
 import React from "react";
 import "./globals.css";
 import "./globals.css";
-import { Inter } from "next/font/google";
 import { Nunito } from "next/font/google";
-import { Playfair } from "next/font/google";
+import { Noto_Sans_KR } from "next/font/google";
 import Recoil from "./utils/Recoil";
 import ReactQuery from "./utils/ReactQuery";
-const inter = Inter({ subsets: ["latin"] });
-const font = Nunito({
-  subsets: ["latin"],
-});
+const font = Noto_Sans_KR({ subsets: ["latin"], weight: "300" });
 export default function RootLayout({
   children,
 }: {

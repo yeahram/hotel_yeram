@@ -25,6 +25,7 @@ const Search = () => {
             px-6
            hidden
            sm:block
+           text-slate-50
             "
         >
           로그인
@@ -39,6 +40,7 @@ const Search = () => {
             text-center
             hidden
             sm:block
+            text-slate-50
             "
         >
           회원가입
@@ -47,6 +49,7 @@ const Search = () => {
         <div className="text-sm pl-6  pr-2 text-gray-600 flex flex-row items-center gap-3">
           <div
             className="hidden sm:block text-sm pr-2
+            text-slate-50
             "
           >
             예약확인
@@ -54,8 +57,9 @@ const Search = () => {
           <div
             className="
           border-[1px]
-          border-gray-600
+          border-state-50
           p-2
+          text-slate-50
           "
           >
             Reservation
