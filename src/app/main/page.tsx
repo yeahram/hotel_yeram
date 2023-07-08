@@ -1,28 +1,21 @@
+"use client"; //클라이언트 렌더링하기위해서 꼭 써줘야함.
+
 import { motion, MotionStyle } from "framer-motion";
+import MainHeader from "../../components/image-data.tsx/MainHeader";
 
 const Main = () => {
   return (
-    <>
-      <p className="bg-slate-500 text-slate-50">Main</p>
-      {/* <motion.div initial={{ scale: 0 }} animate={{ scale: 1, rotateZ: 360 }}>
-        <p>framer motion</p>
-      </motion.div> */}
-      <header>
-        <ul className="flex flex-auto">
-          <li>menu1</li>
-          <li>menu2</li>
-          <li>menu3</li>
-          <li>menu4</li>
-          <li>menu5</li>
-        </ul>
-      </header>
-      <section>
-        <article></article>
-        <article></article>
-        <article></article>
-      </section>
-      <footer></footer>
-    </>
+    <div
+      className="
+        w-full
+        h-full
+        flex
+        justify-center
+        items-center
+        "
+    >
+      <MainHeader></MainHeader>
+    </div>
   );
 };
 export default Main;
