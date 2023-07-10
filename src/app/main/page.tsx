@@ -6,12 +6,48 @@ import { motion, MotionStyle } from "framer-motion";
 import Image from "next/image";
 const Main = () => {
   return (
-    <div>
-      <Navbar></Navbar>
+    <div className=" ">
+      <div className="h-[80px]">
+        <Navbar></Navbar>
+      </div>
+
+      <div className="mt-[250px]">
+        <div
+          className="
+        text-2xl
+        text-slate-50
+        flex
+        justify-center
+        align-center
+        h-[100px]
+        "
+        >
+          EXPERIENCE THE DIFFERENCE
+        </div>
+        <div
+          className="
+        flex
+        flex-row
+        flex-nowrap
+        justify-evenly
+        align-items
+        text-slate-50
+        text-lg
+        hover:cursor-pointer
+        min-w-[1200px]
+        "
+        >
+          <div>RESERVATION</div>
+          <div>HOTEL</div>
+          <div>CHECK IN/OUT</div>
+          <div>ROOM / ADULT / CHILDREN</div>
+        </div>
+      </div>
       <Image
         alt="hotelImage"
         src="https://www.josunhotel.com/static/home/images/ko/pc/HUMA/bg_main01.jpg"
         fill
+        style={{ objectFit: "cover", zIndex: "-1" }}
       ></Image>
     </div>
   );
