@@ -7,7 +7,11 @@ const font = Ysabeau({ subsets: ["latin"] });
 
 const Navbar: React.FC = () => {
   return (
-    <div className="fixed w-full z-10 shadow-sm">
+    <div
+      className="
+    fixed
+     w-full z-10 shadow-sm"
+    >
       {/* bg-white */}
       <div className="py-4 ">
         {/* border-b-[1px] */}
