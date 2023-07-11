@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
               <h1
                 className={`${font.className} text-lg text-slate-950 hover:cursor-pointer`}
               >
-                The Shilla Hotels & Resorts
+                The Shilla Hotels & Resortssssss
               </h1>
             </div>
             <Search />
