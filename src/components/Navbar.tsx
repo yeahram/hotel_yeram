@@ -19,7 +19,6 @@ const Navbar = ({ colorType }: Prop) => {
         return 50;
     }
   })();
-  console.log(colors);
   return (
     <div
       className="
@@ -38,7 +37,7 @@ const Navbar = ({ colorType }: Prop) => {
                 The Shilla Hotels & Resorts
               </h1>
             </div>
-            <Search />
+            <Search colorType="white" />
           </div>
         </Container>
       </div>
