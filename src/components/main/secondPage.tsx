@@ -1,3 +1,4 @@
+import Navbar from "../Navbar";
 import NavbarBlack from "../NavbarBlack";
 
 const SecondPage = () => {
@@ -11,11 +12,13 @@ const SecondPage = () => {
        
         "
     >
-      <NavbarBlack />
+      <Navbar colorType="black" />
+
       <div
         className="
         border-[1px]
           border-state-50
+
       "
       >
         캐러셀입장

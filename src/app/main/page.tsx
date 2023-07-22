@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <>
       <FirstPage></FirstPage>
-      <SecondPage></SecondPage>
+      {/* <SecondPage></SecondPage> */}
     </>
   );
 };

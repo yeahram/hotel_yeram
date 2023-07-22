@@ -8,19 +8,19 @@ const FirstPage = () => {
   return (
     <div className="h-[100vh]">
       <div className="h-[80px]">
-        <Navbar></Navbar>
+        <Navbar />
       </div>
 
       <div className="mt-[250px]">
         <div
           className="
-        text-2xl
-        text-slate-50
-        flex
-        justify-center
-        align-center
-        h-[100px]
-        "
+          text-2xl
+          text-slate-50
+          flex
+          justify-center
+          align-center
+          h-[100px]
+          "
         >
           EXPERIENCE THE DIFFERENCE
         </div>

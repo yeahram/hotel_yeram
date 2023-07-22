@@ -4,8 +4,22 @@ import Container from "./Container";
 import Search from "./Search";
 import { Ysabeau } from "next/font/google";
 const font = Ysabeau({ subsets: ["latin"] });
+interface Prop {
+  colorType?: string;
+  children?: React.ReactNode;
+}
 
-const Navbar: React.FC = () => {
+const Navbar = ({ colorType }: Prop) => {
+  const colors = (() => {
+    // return 50;
+    switch (colorType) {
+      case "black":
+        return 950;
+      default:
+        return 50;
+    }
+  })();
+  console.log(colors);
   return (
     <div
       className="
@@ -19,7 +33,7 @@ const Navbar: React.FC = () => {
           <div className="flex flex-row items-center justify-between gap-3 md:gap-0">
             <div className="min-w-[350px] pl-[10px]">
               <h1
-                className={`${font.className} text-lg text-slate-50 hover:cursor-pointer`}
+                className={`${font.className} text-lg hover:cursor-pointer  text-slate-${colors}`}
               >
                 The Shilla Hotels & Resorts
               </h1>
@@ -31,4 +45,5 @@ const Navbar: React.FC = () => {
     </div>
   );
 };
+
 export default Navbar;
