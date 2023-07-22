@@ -6,8 +6,8 @@ import SecondPage from "@/components/main/secondPage";
 const Page = () => {
   return (
     <>
-      <FirstPage></FirstPage>
-      {/* <SecondPage></SecondPage> */}
+      {/* <FirstPage></FirstPage> */}
+      <SecondPage></SecondPage>
     </>
   );
 };

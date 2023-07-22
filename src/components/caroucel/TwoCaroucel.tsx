@@ -71,7 +71,7 @@ const TwoCaroucel = () => {
 
   return (
     <div className="flex h-screen">
-      <div className="m-auto w-96 aspect-video relative overflow-hidden rounded-2xl">
+      <div className="m-auto w-4/5 aspect-video relative overflow-hidden rounded-2xl">
         <AnimatePresence initial={false} custom={direction}>
           <motion.img
             variants={variants}

@@ -37,7 +37,7 @@ const Navbar = ({ colorType }: Prop) => {
                 The Shilla Hotels & Resorts
               </h1>
             </div>
-            <Search colorType="white" />
+            <Search colorType={colorType} />
           </div>
         </Container>
       </div>

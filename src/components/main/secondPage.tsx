@@ -1,27 +1,19 @@
 import Navbar from "../Navbar";
 import NavbarBlack from "../NavbarBlack";
+import FourCaroucel from "../caroucel/FourCaroucel";
 
 const SecondPage = () => {
   return (
     <div
       className="
-        flex
-        justify-center
-        items-center
-        h-[100vh]
        
         "
     >
       <Navbar colorType="black" />
-
-      <div
-        className="
-        border-[1px]
-          border-state-50
-
-      "
-      >
-        캐러셀입장
+      <div className="w-10/12 flex justify-center">
+        <div className="w-full	">
+          <FourCaroucel></FourCaroucel>
+        </div>
       </div>
     </div>
   );
