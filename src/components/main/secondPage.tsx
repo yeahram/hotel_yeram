@@ -6,13 +6,17 @@ const SecondPage = () => {
   return (
     <div
       className="
-       
+       relative
+       h-[100vh]
         "
     >
-      <Navbar colorType="black" />
-      <div className="w-10/12 flex justify-center">
-        <div className="w-full	">
-          <FourCaroucel></FourCaroucel>
+      <div className="absolute top-0 l-0 w-full h-[85px]">
+        <Navbar colorType="black" />
+      </div>
+
+      <div className="absolute top-1/4 w-full flex justify-center">
+        <div className="w-full left-1/2">
+          <FourCaroucel />
         </div>
       </div>
     </div>

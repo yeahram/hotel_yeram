@@ -23,7 +23,7 @@ const Navbar = ({ colorType }: Prop) => {
     <div
       className="
     fixed
-     w-full z-10 shadow-sm"
+     w-full h-[85px] z-10 shadow-sm"
     >
       {/* bg-white */}
       <div className="py-4 ">
